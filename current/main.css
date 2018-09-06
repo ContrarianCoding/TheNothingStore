@@ -1,0 +1,37 @@
+p {
+    margin-left: 35px;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+div {
+    color: white;
+}
+
+body {
+    background-color: #040420;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-container>div {
+  text-align: center;
+  padding:20px 0;
+  font-size: 20px;
+}
